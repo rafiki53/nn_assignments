@@ -17,3 +17,7 @@ export THEANORC=$NN/config/theano.rc:$HOME/.theanorc
 #python modules
 export PYTHONPATH=$NN:$NN/libs/Theano:$NN/libs/fuel:$NN/libs/picklable-itertools:$PYTHONPATH
 export PATH=$NN/libs/fuel/bin:$PATH
+export IPYTHONDIR=/pio/scratch/2/i264800/ipydir
+export PYTHONPATH=$PYTHONPATH:/pio/scratch/2/i264800/Neurony/nn_assignments
+git config --global user.email "jacek.moszkowski@gmail.com"
+git config --global user.name "rafiki53"
